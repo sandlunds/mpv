@@ -50,6 +50,11 @@ Interface changes
     - add ``track-list/N/image`` sub-property
     - remove `--opengl-restrict` option
     - js custom-init: use filename ~~/init.js instead of ~~/.init.js (dot)
+    - add the `--vo=gpu-next` video output driver, as well as the options
+      `--allow-delayed-peak-detect`, `--builtin-scalers`,
+      `--interpolation-preserve` `--lut`, `--lut-type`, `--image-lut`,
+      `--image-lut-type` and `--target-lut` along with it.
+
  --- mpv 0.33.0 ---
     - add `--d3d11-exclusive-fs` flag to enable D3D11 exclusive fullscreen mode
       when the player enters fullscreen.
